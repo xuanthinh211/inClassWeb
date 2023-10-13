@@ -1,0 +1,97 @@
+body{
+    background-image: url("../img/bkgr.jpg");
+    background-size: cover;
+}
+.container{
+    max-width: 1060px;
+    margin: 0px auto;
+
+}
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 15px;
+    transition: linear 0.5s;
+    align-items: center;
+ }
+ #logo{
+    padding: 5px 5px;
+ }
+ #logo img{
+    max-width: 90px;
+    height: auto;
+ }
+
+ #main-menu{    
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu li a{
+    color:black ;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
